@@ -37,6 +37,12 @@
     <Filter Include="Util_LIB\Debug">
       <UniqueIdentifier>{4804820d-003e-4799-a93c-6062d4fc5a4f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Util_LIB\ELF">
+      <UniqueIdentifier>{5c803907-f0e6-4854-9e16-3900ecf4e681}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util_LIB\Dex">
+      <UniqueIdentifier>{ac47c60e-b579-47b7-ad31-becb4efa5eb4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IDA_Demo_Main.h">
@@ -111,6 +117,18 @@
     <ClInclude Include="Util_LIB\IDAClass\Online_Save.h">
       <Filter>Util_LIB\IDACLASS</Filter>
     </ClInclude>
+    <ClInclude Include="Util_LIB\ELF\Util_ELF.H">
+      <Filter>Util_LIB\ELF</Filter>
+    </ClInclude>
+    <ClInclude Include="Util_LIB\ELF\ELF32.H">
+      <Filter>Util_LIB\ELF</Filter>
+    </ClInclude>
+    <ClInclude Include="Util_LIB\ELF\ELF32_Typedef.H">
+      <Filter>Util_LIB\ELF</Filter>
+    </ClInclude>
+    <ClInclude Include="Util_LIB\ELF\ELF32_Header.H">
+      <Filter>Util_LIB\ELF</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="IDA_Demo_Main.cpp">
@@ -129,6 +147,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="OP_Note.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OP_DexDump.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
